@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "...rate-margin-y()": expected selector or at-rule, was "@media screen a..."
+        on line 140 of /Users/asirokh/Desktop/data/myWebmaster/clients-work/masjidweb/live-site/assets/scss/helpers.scss
+
+135:       margin-bottom: #{$space}px!important;
+136:     }
+137:   }
+138: }
+139: @include generate-margin-y()
+140: @media screen and (max-width: $xl) {
+141:   @mixin generate-margin-y() {
+142:     @each $space in $spaceamounts {
+143:       .pb_xl_my-#{$space} {
+144:         margin-top: #{$space}px!important;
+145:         margin-bottom: #{$space}px!important;
+
+Backtrace:
+/Users/asirokh/Desktop/data/myWebmaster/clients-work/masjidweb/live-site/assets/scss/helpers.scss:140
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/bin/sass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/bin/sass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rate-margin-y()\": expected selector or at-rule, was \"@media screen a...\"\A         on line 140 of /Users/asirokh/Desktop/data/myWebmaster/clients-work/masjidweb/live-site/assets/scss/helpers.scss\A \A 135:       margin-bottom: #{$space}px!important;\A 136:     }\A 137:   }\A 138: }\A 139: @include generate-margin-y()\A 140: @media screen and (max-width: $xl) {\A 141:   @mixin generate-margin-y() {\A 142:     @each $space in $spaceamounts {\A 143:       .pb_xl_my-#{$space} {\A 144:         margin-top: #{$space}px!important;\A 145:         margin-bottom: #{$space}px!important;"; }

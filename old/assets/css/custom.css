@@ -1,0 +1,336 @@
+
+.steps3 h4 {
+	width: 80%;
+    float: right;
+    text-align: left;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+
+.steps3 p {
+    padding-left: 59px;
+    line-height: 143%;
+    font-size: 76%;
+    margin-bottom: 2px;
+}
+.steps3 {
+	margin-top: 0;
+	margin-bottom: -120px;
+}
+
+.centertext {margin: 0 auto; float: none!important}
+
+.navbar {
+	padding: 0.5rem !important;
+	   
+}
+
+@media (max-width: 767px){
+.navbar {
+	   
+}
+}
+
+.navbar.pb_navbar.pb_scrolled-light .darklogo {
+	    display: none;
+}
+
+.navbar.pb_navbar.pb_scrolled-light .lightlogo {
+		display: block;
+	    width: 100%;
+}
+
+.navbar.pb_navbar.pb_scrolled-light.scrolled .lightlogo {
+		display: none;
+}
+
+.navbar.pb_navbar.pb_scrolled-light.scrolled .darklogo {
+		display: block;
+	    width: 100%;
+}
+
+
+
+
+@media (max-width: 320px){
+.pb_cover .heading, .pb_cover_v1 .heading, .pb_cover_v2 .heading, .pb_cover_v3 .heading, .pb_cover_v4 .heading {
+    font-size: 29px;
+}
+}
+
+
+@media (max-width: 767px) {
+.lightlogo, .darklogo {
+	max-width: 250px;
+}
+}
+
+
+.pb_navbar.scrolled.pb_scrolled-light .navbar-brand, .pb_navbar.scrolled.pb_scrolled-light ul li a.active, .priceicon {
+    color: #2a842a !important;
+}
+
+.priceicon {    
+	font-size: 73px;
+    margin-bottom: -32px;
+    text-align: center;
+}
+
+
+.pb_cover_v3 > .container > .row {
+margin-top: 120px;
+	    height: 60vh;
+	min-height: 30em;
+    
+}
+
+@media (max-width: 767px) {
+.pb_cover_v3 > .container > .row {
+	 
+    margin-top: 0px;
+
+}
+}
+
+@media (min-width: 767px) {
+.pb_cover_v3 {
+min-height: 50em;
+}
+}
+
+@media (min-width: 767px) and (max-width: 889px){
+.ipadv {
+	flex: auto !important;
+	min-width: 80% !important;
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1030px){
+.pb_cover_v3{
+      height: 68vh;
+}
+.pb_cover_v3 > .container > .row {
+    height: 43vh;
+}
+}
+
+
+
+@media (max-width: 890px) {
+.topreg {
+	display: none;
+}
+.pb_cover > .container > .row, .pb_cover_v1 > .container > .row, .pb_cover_v2 > .container > .row, .pb_cover_v3 > .container > .row, .pb_cover_v4 > .container > .row {
+    padding: 1em 0;
+}
+
+}
+
+@media (max-width: 407px) {
+	.pb_cover_v3, .pb_cover_v4 {
+    height: 115vh !important;
+    margin-bottom: -76px;
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1050px !important;
+}
+}
+
+.pb_section {
+        padding: 3em 0 6em 0 !important;
+}
+
+.mb-5 {
+    margin-bottom: 2rem !important;
+	margin-top: 1em;
+}
+
+.pb_icon {
+	
+}
+
+.pb_gradient_v1:before {
+    background: linear-gradient(45deg, #286128 0%, #2f8e2f 100%);
+	opacity: 0.98;
+}
+
+.front-p-bg {
+    background-image: url(/assets/images/masjid.png);
+}
+
+.btn-shadow-blue {
+    box-shadow: 0px 15px 28px -5px rgba(40, 94, 40, 0.45);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2a842a;
+    border-color: #1d82ff;
+}
+
+.pb_icon-gradient:before {
+    background: #665fee;
+    background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    background: -webkit-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    background: -o-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    background: linear-gradient(45deg, #286128 0%, #2f8e2f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pb_accordion .item > a[aria-expanded="true"], a, .pb_pricing_v1 .price {
+    color: #2f8e2f;
+
+}
+
+.pb_pricing_v1 {
+	padding: 1rem !important;
+	    margin-bottom: 80px;
+background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.gbox {
+	   
+}
+
+.count {
+color: #286128;
+    font-size: 3em;
+    font-weight: bold !important;
+    width: 41px;
+    float: left;
+    border-right: 1px dotted grey;
+    padding-bottom: 0 !important;
+    padding-right: 10px;
+    padding-top: 12px !important;
+
+}
+
+
+ /* LIST OF BENEFITS IN FRONTPAGE */
+
+.benefits { list-style-type: none;     margin-left: -38px;}
+.benefits li:before { 
+	content:"\2611"; 
+	color: #2f8e2f;
+	padding: 0 5px 0 2px;
+    font-size: 120%;
+} 
+
+.benefits li { 
+	border-bottom: 1px #eee solid;
+	padding-bottom: 7px;
+} 
+
+.benfhead {
+	margin-bottom: 1em !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+.benfhead {
+	margin-top: 1em !important;
+	}
+	.benfcol {
+	padding: 0 1em !important;
+}
+
+}
+
+/* PRICING BOX */
+
+.pricehead {
+	margin-top: 10px !important;
+	font-weight: bold !important;
+	text-align: center;
+	margin-bottom: 12px !important;
+}
+
+.pricehead2 {
+    text-align: center;
+    margin-bottom: 14px !important;
+    color: #2f8e2f;
+    font-weight: bold !important;
+    font-size: 50px !important;
+}
+.costbox {
+    border: 1px solid #eee;
+    padding: 0 46px 40px 54px;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 0 56px 1px #bdb6bd;
+    -moz-box-shadow: 0 0 56px 1px #bdb6bd;
+    box-shadow: 0 0 56px 1px #ccc;
+}
+
+
+@media only screen and (max-width: 767px) {
+.costbox {
+    margin: 10px;
+ 
+}
+}
+
+
+
+/* FAQ */
+#pb_faq {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+/* MOBILE APP IMAGE FRONTPAGE */
+
+.mobapp img {
+	max-width: 80% !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.mobapp img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+	.pb_feature-v1{
+	text-align: center !important;
+}
+
+}
+
+.pb_footer {
+ background-color: white;
+background: #ffffff;
+}
+
+
+
+/* BOTTOM REG */
+
+.bottreg {
+    padding: 4em 0 0 0 !important;
+}
+
+@media (min-width: 767px) {
+	.mainhead {font-size: 40px !important; }
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px){
+.pb_navbar .nav-link {
+    padding-left: 0rem !important;
+	}}
+
+
+/* SUCCESS STEPS */
+.stepbox {max-width: 350px;}
+.steps {background: transparent; margin-top:-290px;padding:0 !important; z-index: 99;    margin-bottom: -96px;}

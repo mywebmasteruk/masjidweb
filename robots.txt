@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /custom/
+Disallow: /recaptcha-master/
+
